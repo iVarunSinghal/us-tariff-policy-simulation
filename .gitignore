@@ -1,0 +1,5 @@
+tariff_env/
+.env
+__pycache__/
+data/raw/*.csv
+data/raw/*.xlsx

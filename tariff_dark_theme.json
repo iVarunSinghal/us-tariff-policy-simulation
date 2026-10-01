@@ -1,0 +1,87 @@
+{
+  "name": "Tariff Simulator — Trade Intelligence",
+  "dataColors": [
+    "#00C4FF", "#FF6B35", "#FFD700", "#00E676", "#CE93D8", "#80CBC4", "#FFAB40", "#EF9A9A"
+  ],
+  "good": "#00E676",
+  "neutral": "#FFD700",
+  "bad": "#FF5252",
+  "maximum": "#00E676",
+  "center": "#FFD700",
+  "minimum": "#FF5252",
+  "null": "#37474F",
+  "background": "#0D1B2A",
+  "foreground": "#E8F4FD",
+  "tableAccent": "#00C4FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "background": [{ "color": { "solid": { "color": "#0D1B2A" } } }],
+        "border": [{ "show": false }]
+      },
+      "title": {
+        "fontFamily": [{ "value": "Segoe UI Semibold" }],
+        "fontSize": [{ "value": 13 }],
+        "color": [{ "solid": { "color": "#E8F4FD" } }],
+        "background": [{ "color": { "solid": { "color": "#0D1B2A" } } }],
+        "show": [{ "value": true }]
+      },
+      "legend": {
+        "fontColor": [{ "solid": { "color": "#B0BEC5" } }],
+        "fontSize": [{ "value": 11 }]
+      },
+      "categoryAxis": {
+        "labelColor": [{ "solid": { "color": "#B0BEC5" } }],
+        "gridlineColor": [{ "solid": { "color": "#152235" } }],
+        "titleColor": [{ "solid": { "color": "#78909C" } }]
+      },
+      "valueAxis": {
+        "labelColor": [{ "solid": { "color": "#B0BEC5" } }],
+        "gridlineColor": [{ "solid": { "color": "#152235" } }],
+        "titleColor": [{ "solid": { "color": "#78909C" } }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#152235" } } }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#1E3A5F" } } }]
+      },
+      "labels": {
+        "color": [{ "solid": { "color": "#E8F4FD" } }],
+        "fontSize": [{ "value": 28 }],
+        "fontFamily": [{ "value": "Segoe UI Light" }]
+      },
+      "categoryLabels": {
+        "color": [{ "solid": { "color": "#78909C" } }],
+        "fontSize": [{ "value": 11 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#152235" } } }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#1E3A5F" } } }]
+      },
+      "slicerText": {
+        "color": [{ "solid": { "color": "#E8F4FD" } }],
+        "fontSize": [{ "value": 12 }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0D1B2A" } } }]
+      },
+      "header": {
+        "fontFamily": [{ "value": "Segoe UI Semibold" }],
+        "fontSize": [{ "value": 12 }],
+        "fontColor": [{ "solid": { "color": "#00C4FF" } }],
+        "backColor": [{ "solid": { "color": "#152235" } }]
+      },
+      "rows": {
+        "fontColor": [{ "solid": { "color": "#E8F4FD" } }],
+        "backColor": [{ "solid": { "color": "#0D1B2A" } }],
+        "alternatingBackColor": [{ "solid": { "color": "#0F2033" } }]
+      }
+    }
+  }
+}
