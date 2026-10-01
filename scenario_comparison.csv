@@ -1,0 +1,6 @@
+scenario,country,hs_chapter,fob_value,cif_value,tariff_rate_pct,tariff_amount_usd,mpf_hmf_usd,landed_cost_usd,consumer_price_usd,consumer_price_delta_usd,consumer_price_delta_pct,tariff_passthrough_pct
+Baseline - Pre-2018,China,85,100.0,104.02,3.5,3.64,33.71,141.37,273.12,0.0,0.0,1.33
+Phase 1 Deal - 2020,China,85,100.0,104.02,7.5,7.8,33.71,145.53,281.16,8.04,2.94,2.77
+Current - 2026 Active,China,85,100.0,104.02,53.5,55.65,33.71,193.38,373.6,100.48,36.79,14.9
+Escalation - Full 50% China,China,85,100.0,104.02,60.0,62.41,33.71,200.14,386.67,113.55,41.58,16.14
+De-escalation - Deal,China,85,100.0,104.02,13.5,14.04,33.71,151.77,293.22,20.1,7.36,4.79
